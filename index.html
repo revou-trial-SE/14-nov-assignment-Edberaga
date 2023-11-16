@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mayo Clinic</title>
+
+	<!-- Bootstrap CSS file, for bootstrap form-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<!--Latest version for jquery, popper js, and bootstrap js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<!-- For the social media icons -->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#service">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#doctor">Doctor</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/background.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Healthcare</h1>
+					<h3>We care about your Health<br>More then you do</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+					<button type="button" class="btn btn-primary btn-lg">Find Doctor</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/hospital.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Welcome to our Clinic</h1>
+					<h3>This place provide everything for your Health</h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/hospital2.jpg">
+				<div class="carousel-caption">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Jumbrotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">
+					At Health Check, our purpose is to identify and evaluate a patient's current medical status and
+					provide a clinical risk profile, to decide whether further tests are indicated prior to surgery,
+					to optimize the patient's medical condition in and able to provide the needed medication to attempt
+					to reduce the risk of complications.
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">
+						Make Appointment
+					</button></a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Welcome Section -->
+	<div class="container-fluid padding" id="about">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Background</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">
+					Our Clinic is a generous and resourcefull place to aid your healthcare needs.
+					We provided multiple health consult service for several diseases, and health advice and
+					medication to resolve health troubles.
+				</p>
+			</div>
+			<div class="col-12">
+				<h1 class="display-5"><br>What we do</h1>
+			</div>
+		</div>
+	</div>
+
+	<!--- Three Column Section -->
+	<div class="container-fluid padding" >
+
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-stethoscope"></i>
+				<h3>Consult</h3>
+				<p>consulting with patient and checking sickness condition while presenting results diagnosis
+					symptom examining about the problem of illness and recommend treatment method, Healthcare
+					and medical
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-pills"></i>
+				<h3>Medicine</h3>
+				<p>Contain several medicine to give according to patient condition after the consult. Each medicine
+					for a condition has several type to test.
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-syringe"></i>
+				<h3>Covid 19 Vaccine</h3>
+				<p>It’s not vaccines that will stop the pandemic, it’s vaccination. We must ensure fair and equitable
+					access to vaccines, and ensure every country receives them and can roll them out to protect their
+					people,
+					starting with the most vulnerable.</p>
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+
+	<!--- Two Column Section -->
+	<div class="container-fluid padding" id="service">
+		<div class="row padding">
+			<div class="col-md-12 col-lg-6">
+				<h2>It's flu session... </h2>
+				<p>
+					Flu season is an annually recurring time period characterized by the prevalence of an outbreak of
+					influenza (flu).
+					The season occurs during the cold half of the year in each hemisphere.
+				</p>
+				<p>
+					Influenza viruses travel through the air in droplets when someone with the infection coughs, sneezes
+					or talks.
+					You can inhale the droplets directly, and then transfer them to your eyes, nose or mouth.
+				</p>
+				<p>
+					If you have flu symptoms and are at risk of complications, see your doctor right away.
+					Taking antiviral drugs may reduce the length of your illness and help prevent more-serious problems.
+				</p>
+				<br>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/flu.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+
+	<!--- Meet the doctor -->
+	<div class="container-fluid padding" id="doctor">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Meet the Doctor</h1>
+			</div>
+			<hr>
+
+		</div>
+	</div>
+
+	<!--- The Doctor -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/doctor 1.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Juliana Evan</h4>
+						<p class="card-text">
+							Juliana did her Bachelor of Biomedical Engineering in University of Malaya, Kuala Lumpur and
+							pursued her Masters in Biomedical Engineering in Australia. She has more than 10 years’
+							experience in medical equipment planning and implementation.
+						</p>
+						<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/doctor 2.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Nich Sharif Lough</h4>
+						<p class="card-text">
+							Nich started his career in pharmaceutical and medical retail, trading and direct sales at
+							2014. His passion for healthcare came in 2004 when he was accepted into a Management Trainee
+							Programmeby Mahkota Medical Centre in Melaka. Since then he has been involved in hospital
+							related
+							projects including research, feasibility studies and hospital management of private
+							hospitals
+							culminating for 5 years.
+						</p>
+						<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/doctor 3.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Jennifer Doe</h4>
+						<p class="card-text">
+							Graduated with a degree in Pharmacy from National London University. Her area of
+							specialisation
+							is in equipment planning and procurement for a range of healthcare facilities including
+							university faculties and medical / scientific laboratories. She has over 25 years of
+							experience
+							in international consulting involved in the area of project appraisal, medical equipment
+							planning,
+							need assessment and procurement.
+						</p>
+						<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--- Two Column Section -->
+	<div class="container-fluid padding" id="contact">
+		<div class="row padding">
+			<div class="col-lg-6">
+				<img src="img/patient.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-12 col-lg-6">
+				<h2>Talk to us </h2>
+				<p>
+					Every person has to visit a doctor at some point in their life. However the need for consulting a 
+					doctor does not change in any situation. If the patients do not get the 
+					right kind of medical treatment it may become fatal for them. Even if you get 
+					an appointment you have to consult according to the time specified by them. This can be very time 
+					consuming and dangerous for the patients if they do not get treated as soon as possible.
+				</p>
+				<p>
+					Luckily there is a solution to all of the problems faced by the patients. That is consulting a doctor 
+					at your own home.
+				</p>
+				<br>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Social Media -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Connect</h2>
+			</div>
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="img/Logo2.png">
+					<hr class="light">
+					<p>601-234-5555</p>
+					<p>email@clinic.com</p>
+					<p>100 Street Name</p>
+					<p>City, State, 0000</p>
+				</div>
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Our hours</h5>
+					<hr class="light">
+					<p>Monday - Friday: 9am - 5pm</p>
+					<p>Saturday: 10am - 3pm</p>
+					<p>Sunday: closed</p>
+				</div>
+
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Place to Consult</h5>
+					<hr class="light">
+					<p>City, Street, 0000</p>
+					<p>City, Street, 0000</p>
+					<p>City, Street, 0000</p>
+				</div>
+			</div>
+			<div class="col-12">
+				<hr class="light-max">
+				<h5>&copy; mayoclinic.com</h5>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
